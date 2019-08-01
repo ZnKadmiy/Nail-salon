@@ -65,6 +65,10 @@
 }
 
 header {
+	border-bottom: 1px solid #cacaca;
+}
+
+.header-main {
 	width: 1180px;
 	height: 130px;
 	margin: auto;
@@ -87,6 +91,7 @@ header {
 	line-height: 30px;
 	margin-top: 10px;
     margin-left: 90px;
+	border-bottom: 1px solid #f1176e;
 }
 
 .header-catalog {
@@ -110,7 +115,7 @@ header {
 	font-weight: bold;
 	line-height: 30px;
 	display: flex;
-	margin-left: 170px;
+	margin-left: 220px;
 	margin-top: 10px;
 }
 
@@ -122,6 +127,7 @@ header {
 
 .korzina-icon {
 	margin-right: 15px;
+	margin-top: 5px;
 }
 
 input {
@@ -187,7 +193,7 @@ footer {
 
 .right-social {
 	display: flex;
-	margin-left: 85px;
+	margin-left: 75px;
 }
 
 .social-icon {
@@ -222,4 +228,113 @@ footer {
 .phone {
 	text-decoration: none;
 	color: white;
+}
+
+.main {
+	font-family: 'Oswald', sans-serif;
+	width: 1180px;
+	margin: auto;
+}
+
+.upper-main {
+	padding-bottom: 20px;
+}
+
+.main-items {
+	
+}
+
+.main-item {
+	width: 1030px;
+	display: flex;
+	padding-bottom: 55px;
+	margin-bottom: 55px;
+	justify-content: space-between;
+}
+
+.main-item-last {
+	width: 1030px;
+	display: flex;
+	padding-bottom: 55px;
+	margin-bottom: 55px;
+	justify-content: space-between;
+}
+
+.main-a {
+	color: #cacaca;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Playfair Display regular', serif;
+	font-style: italic;
+	line-height: 28px;
+	font-weight: 500;
+	font-size: 60px;
+}
+
+.left-item {
+	width: 545px;
+}
+
+.right-item {
+	width: 370px;
+}
+
+.item-txt {
+	font-family: 'Playfair Display regular', serif;
+	font-style: italic;
+	font-size: 40px;
+	margin: 0px;
+}
+
+.item-up {
+	
+}
+
+.up-href {
+	background-color: #ffffff;
+    margin-top: -11px;
+    width: 65px;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+
+.item-head {
+	font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.shops-head {
+	font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.item-main {
+	font-size: 14px;
+}
+
+.shops-footer {
+	font-size: 14px;
+}
+
+.tarif-a {
+	text-decoration: none;
+}
+
+.main-footer-item {
+	padding: 0px;
+	margin-left: 20px;
+}
+
+.footer-item {
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: #f22e7c;
+}
+
+.item-color {
+	color: #1f1f1f;
 }
